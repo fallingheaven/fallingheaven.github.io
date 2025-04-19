@@ -8,7 +8,7 @@ REM 步骤1：添加所有更改
 git add .
 
 REM 步骤2：输入提交信息
-set /p msg=请输入提交说明（默认：update content）:
+set /p msg=Please enter commit message (default: update content):
 
 if "%msg%"=="" (
     set msg=update content
