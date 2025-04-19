@@ -21,7 +21,7 @@ jobs:
           hugo-version: '0.146.5'
 
       - name: Build
-        run: hugo --minify
+        run: hugo --minify --theme hugo-theme-stack
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
